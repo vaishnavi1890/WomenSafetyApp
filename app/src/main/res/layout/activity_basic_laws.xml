@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #ffe6ff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/backarrow" />
+
+    <View
+        android:id="@+id/top_left"
+        android:layout_width="134dp"
+        android:layout_height="81dp"
+        android:background="@drawable/top_left_oval"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView12"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="cursive"
+        android:text="Women's Safety "
+        android:textColor="#803A99"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="-1dp"
+        android:fontFamily="cursive"
+        android:text="Basic Laws For Women's"
+        android:textColor="#540603 "
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/dash" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="365dp"
+        android:layout_height="232dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="81dp"
+        android:text="The Ministry of Women and Child Development has been administering various special laws relating to women such as the Protection of Women from Domestic Violence Act, 2005; Dowry Prohibition Act, 1961; Indecent Representation of Women (Prohibition) Act, 1986; the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 and the Prohibition of Child Marriage Act, 2006. The said Ministry is also administering the Juvenile Justice (care and protection of children) Act, 2015, the Commissions for Protection of Child Rights Act, 2005 and the Protection of Children from Sexual Offences Act, 2012.
+Sections 326A, 326B, 354, 354A, 354B, 354C, 354D, 370, 370A, 375, 376, 376A, 376B, 376C, 376D and 509 have been amended and inserted by The Criminal Law (Amendment) Act, 2013. These were several offences and their punishments under Indian Penal Code related to women.
+"
+        android:textColor="#4A235A"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="87dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="-58dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#803A99"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.515" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="  #ffe6ff"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/top_left_oval"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women's Safety "
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#803A99"
+        android:textStyle="bold"
+        android:layout_above="@id/sparkImg"
+        android:id="@+id/sparkText"
+        android:fontFamily="cursive"/>
+
+
+    <ImageView
+        android:layout_width="600px"
+        android:layout_height="700px"
+        android:layout_centerVertical="true"
+        android:paddingStart="30dp"
+        android:src="@drawable/girl"
+        android:id="@+id/sparkImg"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slang"
+        android:layout_below="@id/sparkImg"
+        android:text="Safety fits like a glove ; Try one on"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:background="#803A99"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnGetStarted"
+        android:layout_marginTop="40px"
+        android:layout_below="@id/slang"/>
+
+
+
+</RelativeLayout>
